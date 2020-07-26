@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/usearch"
+            android:checkable="false"
+            android:icon="@drawable/search"
+            android:title="Search Near by Stores" />
+        <item
+            android:id="@+id/uprofile"
+            android:checkable="false"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/usettings"
+            android:checkable="false"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/uhelp"
+            android:checkable="false"
+            android:icon="@drawable/help"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/ufeedback"
+            android:checkable="false"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+
+    </group>
+</menu>

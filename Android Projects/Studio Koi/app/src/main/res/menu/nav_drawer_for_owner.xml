@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/oabout"
+            android:checkable="false"
+            android:icon="@drawable/about"
+            android:title="About" />
+        <item
+            android:id="@+id/oincomming"
+            android:checkable="false"
+            android:icon="@drawable/incomming"
+            android:title="Incomming Orders" />
+        <item
+            android:id="@+id/orunning"
+            android:checkable="false"
+            android:icon="@drawable/running"
+            android:title="Running Orders" />
+        <item
+            android:id="@+id/oready"
+            android:checkable="false"
+            android:icon="@drawable/readytodeliver"
+            android:title="Ready to Deliver" />
+        <item
+            android:id="@+id/odelivered"
+            android:checkable="false"
+            android:icon="@drawable/delivered"
+            android:title="Delivered" />
+        <item
+            android:id="@+id/ocancel"
+            android:checkable="false"
+            android:icon="@drawable/cancel"
+            android:title="Cancelled Orders" />
+        <item
+            android:id="@+id/osettings"
+            android:checkable="false"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/ohelp"
+            android:checkable="false"
+            android:icon="@drawable/help"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/ofeedback"
+            android:checkable="false"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+    </group>
+</menu>
